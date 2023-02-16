@@ -102,7 +102,7 @@ async def evdel_game(ctx, done: str) :
 	if bot.control_channel(ctx) :
 		if bot.next_event["date"] != "" :
 			if bot.next_event["announced"] :
-				if done != "done" :
+				if done != "done" : # On n'envoie pas de message pour prévenir de l'annulation si on supprime l'événement car la soirée est passée
 					cancel_msg = "Hello "
 					for member in bot.next_event["participants"] :
 						cancel_msg += f"{bot.find_member(member).mention} "
