@@ -55,4 +55,5 @@ Si vous voulez utiliser GameBot dans votre serveur discord, vous devrez d'abord 
 - créer un fichier .env dans le dossier src et y placer le token de votre bot sous ce format :
   "TOKEN=VOTRE_TOKEN_ICI"
 - modifier les différents id présents dans variable.py (celui du propriétaire du bot, celui du serveur discord et ceux des différents salons du bot)
+
 Ensuite, pour lancer le bot, il vous suffit d'exécuter le script run.sh
