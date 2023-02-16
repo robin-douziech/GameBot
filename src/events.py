@@ -74,10 +74,6 @@ async def on_ready() :
 	print(f"control-channel : {bot.channels['control_channel'].name}")
 	print(f"error-channel : {bot.channels['error_channel'].name}")
 
-	print(f"members : {bot.members}")
-
-	print(bot.next_event["participants"])
-
 	print(f"{bot.user.display_name} est prêt.")
 
 
