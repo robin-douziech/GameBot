@@ -69,6 +69,7 @@ async def on_ready() :
 
 	print(f"bot-guild : {bot.bot_guild}")
 	print(f"bot-channel : {bot.channels['bot_channel'].name}")
+	print(f"announce-channel : {bot.channels['announce_channel'].name}")
 	print(f"general-channel : {bot.channels['general_channel'].name}")
 	print(f"welcome-channel : {bot.channels['welcome_channel'].name}")
 	print(f"control-channel : {bot.channels['control_channel'].name}")

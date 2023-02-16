@@ -49,11 +49,8 @@ MAX_LENGTH_DESC = 1600
 MAX_LENGTH_RULES = 150
 MAX_LENGTH_TJ = 5
 
-pentester_pro = "pentester pro"
-
 per = 1
 rate = 5
-
 
 hello_msg = """
 Salut ! :wave:\n
