@@ -168,7 +168,6 @@ async def on_command_error(ctx, error) :
 	elif isinstance(error, discord.ext.commands.errors.CommandOnCooldown) :
 		await ctx.channel.purge(limit=1)
 	else :
-		await ctx.channel.send(f"{ctx.author.display_name} a réussi à provoquer une nouvelle erreur, bien joué ! (eh oui, j'ai bien suivi les cours de MB de Yvan Courbon, c'est le client qui s'occupe de débugger mon code)")
 		await bot.channels["error_channel"].send(f"error : {error}")
 		sys.exit()
 	await bot.channels["error_channel"].send(f"error : {error}")
